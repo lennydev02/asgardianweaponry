@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ww",
+    "www",
+    "sw "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "w": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "asgardianweaponry:giant_iron_sword"
+  }
+}

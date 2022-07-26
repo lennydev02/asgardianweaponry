@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "asgardianweaponry:item/giant_diamond_sword"
+  }
+}

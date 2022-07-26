@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ww",
+    "www",
+    "sw "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "w": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "asgardianweaponry:giant_gold_sword"
+  }
+}

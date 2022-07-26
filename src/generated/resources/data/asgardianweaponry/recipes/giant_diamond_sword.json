@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ww",
+    "www",
+    "sw "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "w": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "asgardianweaponry:giant_diamond_sword"
+  }
+}
