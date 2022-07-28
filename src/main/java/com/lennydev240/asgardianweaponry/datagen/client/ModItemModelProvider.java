@@ -42,9 +42,9 @@ public class ModItemModelProvider extends ItemModelProvider {
                     .texture("layer0", itemTexture)
                     .transforms()
                     .transform(ItemTransforms.TransformType.THIRD_PERSON_RIGHT_HAND).rotation(45, -20, 90).translation(-3, 3, 3).scale(0.75F, 0.75F, 0.75F).end()
-                    .transform(ItemTransforms.TransformType.THIRD_PERSON_LEFT_HAND).rotation(45, 200, -90).translation(-3, 3, 3).scale(0.75F, 0.75F, 0.75F).end()
+                    .transform(ItemTransforms.TransformType.THIRD_PERSON_LEFT_HAND).rotation(45, 160, -90).translation(-3, 3, 3).scale(0.75F, 0.75F, 0.75F).end()
                     .transform(ItemTransforms.TransformType.FIRST_PERSON_RIGHT_HAND).rotation(0, -180, -5).translation(0, 3, 0).scale(0.75F, 0.75F, 0.75F).end()
-                    .transform(ItemTransforms.TransformType.FIRST_PERSON_LEFT_HAND).rotation(0, 180, 5).translation(0, 3, 0).scale(0.75F, 0.75F, 0.75F).end()
+                    .transform(ItemTransforms.TransformType.FIRST_PERSON_LEFT_HAND).rotation(0, 0, 5).translation(0, 3, 0).scale(0.75F, 0.75F, 0.75F).end()
                     .end();
         } else {
             System.out.println("Texture is missing for: "
