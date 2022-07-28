@@ -1,6 +1,6 @@
 package com.lennydev240.asgardianweaponry.datagen.client.lang;
 
-import com.lennydev240.asgardianweaponry.GiantSwordsMod;
+import com.lennydev240.asgardianweaponry.AsgardianWeaponryMod;
 import com.lennydev240.asgardianweaponry.init.ItemInit;
 
 import net.minecraft.data.DataGenerator;
@@ -9,7 +9,7 @@ import net.minecraftforge.common.data.LanguageProvider;
 public class ModEnUsProvider extends LanguageProvider{
 
     public ModEnUsProvider(DataGenerator gen) {
-        super(gen, GiantSwordsMod.MOD_ID, "en_us");
+        super(gen, AsgardianWeaponryMod.MOD_ID, "en_us");
     }
 
     @Override

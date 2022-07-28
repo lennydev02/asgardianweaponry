@@ -12,7 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod("asgardianweaponry")
-public class GiantSwordsMod {
+public class AsgardianWeaponryMod {
 
     public static final String MOD_ID = "asgardianweaponry";
 
@@ -25,7 +25,7 @@ public class GiantSwordsMod {
     };
 
 
-    public GiantSwordsMod(){
+    public AsgardianWeaponryMod(){
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ItemInit.ITEMS.register(bus);

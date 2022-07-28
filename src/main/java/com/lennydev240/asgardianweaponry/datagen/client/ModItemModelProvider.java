@@ -1,6 +1,6 @@
 package com.lennydev240.asgardianweaponry.datagen.client;
 
-import com.lennydev240.asgardianweaponry.GiantSwordsMod;
+import com.lennydev240.asgardianweaponry.AsgardianWeaponryMod;
 import com.lennydev240.asgardianweaponry.init.ItemInit;
 
 import net.minecraft.data.DataGenerator;
@@ -13,7 +13,7 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 public class ModItemModelProvider extends ItemModelProvider {
 
     public ModItemModelProvider(DataGenerator generator, ExistingFileHelper helper) {
-        super(generator, GiantSwordsMod.MOD_ID, helper);
+        super(generator, AsgardianWeaponryMod.MOD_ID, helper);
     }
 
     protected void simpleBlockItem(Item item) {

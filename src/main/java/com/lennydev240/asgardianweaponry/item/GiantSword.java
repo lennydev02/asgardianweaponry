@@ -1,6 +1,6 @@
 package com.lennydev240.asgardianweaponry.item;
 
-import com.lennydev240.asgardianweaponry.GiantSwordsMod;
+import com.lennydev240.asgardianweaponry.AsgardianWeaponryMod;
 
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
@@ -12,7 +12,7 @@ import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
-@EventBusSubscriber(bus = EventBusSubscriber.Bus.FORGE, modid = GiantSwordsMod.MOD_ID)
+@EventBusSubscriber(bus = EventBusSubscriber.Bus.FORGE, modid = AsgardianWeaponryMod.MOD_ID)
 public class GiantSword extends SwordItem {
 
    //TO-DO: Animation beim blocken

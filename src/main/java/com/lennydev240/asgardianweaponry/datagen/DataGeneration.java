@@ -1,6 +1,6 @@
 package com.lennydev240.asgardianweaponry.datagen;
 
-import com.lennydev240.asgardianweaponry.GiantSwordsMod;
+import com.lennydev240.asgardianweaponry.AsgardianWeaponryMod;
 import com.lennydev240.asgardianweaponry.datagen.client.ModItemModelProvider;
 import com.lennydev240.asgardianweaponry.datagen.client.lang.ModEnUsProvider;
 import com.lennydev240.asgardianweaponry.datagen.server.ModRecipeProvider;
@@ -12,7 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.forge.event.lifecycle.GatherDataEvent;
 
-@Mod.EventBusSubscriber(modid = GiantSwordsMod.MOD_ID, bus = Bus.MOD)
+@Mod.EventBusSubscriber(modid = AsgardianWeaponryMod.MOD_ID, bus = Bus.MOD)
 public class DataGeneration {
     
     @SubscribeEvent
