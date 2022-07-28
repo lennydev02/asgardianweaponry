@@ -2,5 +2,13 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "asgardianweaponry:item/giant_wooden_sword"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "asgardianweaponry:blocking": 1.0
+      },
+      "model": "asgardianweaponry:item/giant_wooden_sword_blocking"
+    }
+  ]
 }

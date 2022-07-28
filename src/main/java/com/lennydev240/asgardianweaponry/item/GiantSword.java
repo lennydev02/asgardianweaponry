@@ -2,6 +2,8 @@ package com.lennydev240.asgardianweaponry.item;
 
 import com.lennydev240.asgardianweaponry.AsgardianWeaponryMod;
 
+import net.minecraft.client.renderer.item.ItemProperties;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.player.Player;
@@ -10,10 +12,12 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.FORGE, modid = AsgardianWeaponryMod.MOD_ID)
-public class GiantSword extends SwordItem {
+public class GiantSword extends SwordItem{
 
    //TO-DO: Animation beim blocken
 
@@ -56,5 +60,12 @@ public class GiantSword extends SwordItem {
      }
 
 
+    //@Override
+    //@OnlyIn(Dist.CLIENT)
+    //public void registerModelProperty()
+    //{
+    //    ItemProperties.register(this, new ResourceLocation("blocking"), (stack, level, living, id) ->
+    //            living != null && living.isUsingItem() && living.getUseItem() == stack ? 1.0F : 0.0F);
+    //}
 
 }

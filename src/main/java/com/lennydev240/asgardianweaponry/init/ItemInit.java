@@ -43,7 +43,7 @@ public class ItemInit {
         public static final RegistryObject<Item> GIANT_NETHERITE_SWORD = register("giant_netherite_sword",
                         () -> new GiantSword(Tiers.NETHERITE, 5, -3F,
                                         new GiantSword.Properties().tab(AsgardianWeaponryMod.GIANT_CREATIVE_MODE_TAB)
-                                                        .durability(3474)));
+                                                        .durability(3474).fireResistant()));
 
         public static final RegistryObject<Item> GIANT_ENDER_SWORD = register("giant_ender_sword",
                         () -> new GiantSword(ModTiers.ENDER, 5, -3F,
