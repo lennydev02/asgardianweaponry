@@ -38,8 +38,8 @@
     "firstperson_righthand": {
       "rotation": [
         0,
-        180,
-        5
+        -180,
+        -5
       ],
       "translation": [
         0,

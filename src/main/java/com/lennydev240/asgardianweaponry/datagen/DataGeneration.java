@@ -2,6 +2,7 @@ package com.lennydev240.asgardianweaponry.datagen;
 
 import com.lennydev240.asgardianweaponry.AsgardianWeaponryMod;
 import com.lennydev240.asgardianweaponry.datagen.client.ModItemModelProvider;
+import com.lennydev240.asgardianweaponry.datagen.client.lang.ModDeDeProvider;
 import com.lennydev240.asgardianweaponry.datagen.client.lang.ModEnUsProvider;
 import com.lennydev240.asgardianweaponry.datagen.server.ModRecipeProvider;
 
@@ -24,6 +25,7 @@ public class DataGeneration {
         if(sEvent.includeClient()){
             generator.addProvider(new ModItemModelProvider(generator, helper));
             generator.addProvider(new ModEnUsProvider(generator));
+            generator.addProvider(new ModDeDeProvider(generator));
         }
 
         if(sEvent.includeServer()){
