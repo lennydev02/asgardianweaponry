@@ -17,7 +17,7 @@ public enum ModTiers implements Tier {
     NETHERRACK(3, 225, 2.0F, 3.0F, 15, () -> {
         return Ingredient.of(Items.NETHERRACK);
     }),
-    ENDER(3, 1561, 8.0F, 3.0F, 10, () -> {
+    ENDER(3, 1561, 8.0F, 3.0F, 15, () -> {
         return Ingredient.of(Items.OBSIDIAN);
     });
 
